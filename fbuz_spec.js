@@ -14,27 +14,27 @@ describe("Fizz Buzz tests ", function() {
   });
 
   it("should return `FizzBuzz` for 15", function() {
-    expect(fizzBuzz(15)).toBe('FizzBuzz');
+    expect(myApp.fizzBuzz(15)).toBe('FizzBuzz');
   });
 
   it("should return `FizzBuzz` for 45", function() {
-    expect(fizzBuzz(45)).toBe('FizzBuzz');
+    expect(myApp.fizzBuzz(45)).toBe('FizzBuzz');
   });
 
    it("should return `FizzBuzz` for 75", function() {
-    expect(fizzBuzz(75)).toBe('FizzBuzz');
+    expect(myApp.fizzBuzz(75)).toBe('FizzBuzz');
   });
 
   it("should return `FizzBuzz` for 90", function() {
-    expect(fizzBuzz(90)).toBe('FizzBuzz');
+    expect(myApp.fizzBuzz(90)).toBe('FizzBuzz');
   });
 
   it("should return `Fizz` for 12", function() {
-    expect(fizzBuzz(12)).toBe('Fizz');
+    expect(myApp.fizzBuzz(12)).toBe('Fizz');
   });
 
   it("should return `Buzz` for 50", function() {
-    expect(fizzBuzz(50)).toBe('Buzz');
+    expect(myApp.fizzBuzz(50)).toBe('Buzz');
   });
 
 
