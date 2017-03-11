@@ -1,4 +1,5 @@
-var myApp = require('fbuz.js');
+var myApp = require('./fbuz.js');
+//var jasmine = require('./node_modules/jasmine');
 (function() {
   'use strict';
 

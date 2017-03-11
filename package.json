@@ -1,12 +1,24 @@
 {
   "name": "assignment1",
   "version": "1.0.0",
-  "description": "",
   "main": "fbuz.js",
   "scripts": {
     "test": "jasmine fbuz_spec.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phemonick/assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phemonick/assignment/issues"
+  },
+  "homepage": "https://github.com/phemonick/assignment#readme",
+  "description": ""
 }
